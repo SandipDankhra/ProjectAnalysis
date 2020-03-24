@@ -12,24 +12,26 @@ namespace MoviesStoreApp
             Console.WriteLine("========== WelCome TO MovieStore ==========");
             int choice;
             MovieDomain movieDomain = new MovieDomain();
-            
+            var movies = new Movies();
+
             do
             {
                 Console.WriteLine("\n======= Menu =======");
                 Console.WriteLine("1.Add Movie");
                 Console.WriteLine("2.Remove Movie");
-                Console.WriteLine("3.Add Actors");
-                Console.WriteLine("4.Remove Actors");
-                Console.WriteLine("5.Add MovieDeatils");
-                Console.WriteLine("6.Exit");
+                Console.WriteLine("3.View Movie");
+                Console.WriteLine("4.Add Actors");
+                Console.WriteLine("5.Remove Actors");
+                Console.WriteLine("6.Add MovieDeatils");
+                Console.WriteLine("0.Exit");
 
-                Console.Write("\n Enter Your choice : ");
+                Console.Write("\nEnter Your choice : ");
                 choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
                 {
                     case 1:
-                        Console.WriteLine("====== Add movies =====");
+                        Console.WriteLine("\n====== Add movies =====");
 
                         Console.Write("Enter MovieName: ");
                         string MovieName = Convert.ToString(Console.ReadLine());
@@ -49,19 +51,29 @@ namespace MoviesStoreApp
                         Console.Write("Enter ShootingDuration: ");
                         string ShootingDuration = Convert.ToString(Console.ReadLine());
 
-
-                        var movies = new Movies();
-
                         movies.MovieName = MovieName;
                         movies.ReleaseDate = ReleaseDate;
                         movies.MovieType = MovieType;
                         movies.MovieLanguage = MovieLanguage;
                         movies.MovieCost = MovieCost;
                         movies.ShootingDuration = ShootingDuration;
-
+                      
                         movieDomain.AddMovies(movies);
                         break;
-                    case 6:
+
+                    case 2:
+                        Console.WriteLine("\n====== Remove movie =====");
+                        Console.Write("\nEnter Movie ID : ");
+                        int MovieId = Convert.ToInt32(Console.ReadLine());
+                        movies.MovieId = MovieId;
+                        movieDomain.DeleteMovies(movies);
+                        break;
+
+                    case 3:
+                        Console.WriteLine("\n====== View All movie =====");
+                        movieDomain.ViewAllMovies();
+                        break;
+                    case 0:
                         return;
                     default:
                         Console.WriteLine(" Invalid Choice !!!");

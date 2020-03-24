@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Data.SqlClient;
 using System.Text;
-
+using MoviesStoreApp.Models;
 
 namespace MoviesStoreApp.Domains
 {
-    public abstract class BaseDomain
+    public abstract class BaseDomain:DbContext
     {
         private SqlConnection SqlConnection { get; set; }
         protected SqlCommand SqlCommand { get; set; }
@@ -35,6 +36,9 @@ namespace MoviesStoreApp.Domains
             this.SqlConnection.Close();
         }
 
+        public DbSet<Movies> Movies { get; set; }
+        public DbSet<MovieDetails> MovieDetails { get; set; }
+        public DbSet<Actors> Actors{ get; set; }
 
     }
 }
