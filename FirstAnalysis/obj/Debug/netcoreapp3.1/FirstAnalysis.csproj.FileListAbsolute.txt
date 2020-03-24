@@ -1,0 +1,11 @@
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.exe
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.deps.json
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.runtimeconfig.json
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.runtimeconfig.dev.json
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.dll
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\bin\Debug\netcoreapp3.1\FirstAnalysis.pdb
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\obj\Debug\netcoreapp3.1\FirstAnalysis.csprojAssemblyReference.cache
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\obj\Debug\netcoreapp3.1\FirstAnalysis.AssemblyInfoInputs.cache
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\obj\Debug\netcoreapp3.1\FirstAnalysis.AssemblyInfo.cs
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\obj\Debug\netcoreapp3.1\FirstAnalysis.dll
+F:\Radixweb\C#\AnalysisProject\FirstAnalysis\obj\Debug\netcoreapp3.1\FirstAnalysis.pdb

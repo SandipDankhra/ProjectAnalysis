@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sendy\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sendy\\.nuget\\packages"
+    ]
+  }
+}

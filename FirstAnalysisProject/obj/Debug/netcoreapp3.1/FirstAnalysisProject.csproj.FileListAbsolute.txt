@@ -1,0 +1,4 @@
+F:\Radixweb\C#\AnalysisProject\FirstAnalysisProject\bin\Debug\netcoreapp3.1\FirstAnalysisProject.exe
+F:\Radixweb\C#\AnalysisProject\FirstAnalysisProject\obj\Debug\netcoreapp3.1\FirstAnalysisProject.csprojAssemblyReference.cache
+F:\Radixweb\C#\AnalysisProject\FirstAnalysisProject\obj\Debug\netcoreapp3.1\FirstAnalysisProject.AssemblyInfoInputs.cache
+F:\Radixweb\C#\AnalysisProject\FirstAnalysisProject\obj\Debug\netcoreapp3.1\FirstAnalysisProject.AssemblyInfo.cs
