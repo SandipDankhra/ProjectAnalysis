@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Radixweb\\C#\\AnalysisProject\\MoviesStoreApp\\MoviesStoreApp.csproj": {}
+    "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj": {}
   },
   "projects": {
-    "F:\\Radixweb\\C#\\AnalysisProject\\MoviesStoreApp\\MoviesStoreApp.csproj": {
+    "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Radixweb\\C#\\AnalysisProject\\MoviesStoreApp\\MoviesStoreApp.csproj",
+        "projectUniqueName": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
         "projectName": "MoviesStoreApp",
-        "projectPath": "F:\\Radixweb\\C#\\AnalysisProject\\MoviesStoreApp\\MoviesStoreApp.csproj",
+        "projectPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
         "packagesPath": "C:\\Users\\sendy\\.nuget\\packages\\",
-        "outputPath": "F:\\Radixweb\\C#\\AnalysisProject\\MoviesStoreApp\\obj\\",
+        "outputPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
