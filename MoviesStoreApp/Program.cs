@@ -12,8 +12,10 @@ namespace MoviesStoreApp
             Console.WriteLine("========== WelCome TO MovieStore ==========");
             int choice;
             MovieDomain movieDomain = new MovieDomain();
-            var movies = new Movies();
+            ActorDomain actorDomain = new ActorDomain();
 
+            var movies = new Movies();
+            var actors = new Actors();
             do
             {
                 Console.WriteLine("\n======= Menu =======");
@@ -22,7 +24,8 @@ namespace MoviesStoreApp
                 Console.WriteLine("3.View Movie");
                 Console.WriteLine("4.Add Actors");
                 Console.WriteLine("5.Remove Actors");
-                Console.WriteLine("6.Add MovieDeatils");
+                Console.WriteLine("6.View Actor");
+                Console.WriteLine("7.Add MovieDeatils");
                 Console.WriteLine("0.Exit");
 
                 Console.Write("\nEnter Your choice : ");
@@ -57,11 +60,14 @@ namespace MoviesStoreApp
                         movies.MovieLanguage = MovieLanguage;
                         movies.MovieCost = MovieCost;
                         movies.ShootingDuration = ShootingDuration;
-                      
+
                         movieDomain.AddMovies(movies);
                         break;
 
                     case 2:
+                        Console.WriteLine("\n====== View All movie =====");
+                        movieDomain.ViewAllMovies();
+
                         Console.WriteLine("\n====== Remove movie =====");
                         Console.Write("\nEnter Movie ID : ");
                         int MovieId = Convert.ToInt32(Console.ReadLine());
@@ -72,6 +78,25 @@ namespace MoviesStoreApp
                     case 3:
                         Console.WriteLine("\n====== View All movie =====");
                         movieDomain.ViewAllMovies();
+                        break;
+                    case 4:
+                        Console.WriteLine("\n====== Add Actor =====");
+
+                        Console.Write("Enter Actor Name: ");
+                        string ActorName = Convert.ToString(Console.ReadLine());
+
+                        Console.Write("Enter Actor Fees: ");
+                        string Fees = Convert.ToString(Console.ReadLine());
+
+                        actors.ActorName = ActorName;
+                        actors.Fees = Fees;
+
+                        actorDomain.AddActor(actors);
+
+                        break;
+                    case 5:
+                        Console.WriteLine("\n====== View All Actor =====");
+                        //actorDomain.ViewAllActor();
                         break;
                     case 0:
                         return;

@@ -12,10 +12,11 @@ namespace MoviesStoreApp.Domains
         private SqlConnection SqlConnection { get; set; }
         protected SqlCommand SqlCommand { get; set; }
 
+
         public BaseDomain()
         {
             this.SqlConnection = new SqlConnection("data source=S\\SQLEXPRESS;initial catalog=MoviesInformationDB;Integrated Security=True;MultipleActiveResultSets=True;App=EntityFramework");
-                this.SqlConnection.Open();
+            this.SqlConnection.Open();
         }
 
 

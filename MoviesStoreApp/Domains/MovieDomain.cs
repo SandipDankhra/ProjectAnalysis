@@ -44,7 +44,7 @@ namespace MoviesStoreApp.Domains
             try
             {
                 var  reader = this.GetReader($"select * from Movies");
-                Console.WriteLine(reader.Read());
+                /*Console.WriteLine(reader.Read());*/
                 Console.WriteLine("MovieId  MovieName  ReleaseDate  MovieType  MovieLanguage  MovieCost ShootingDuration");
                 
                 while (reader.Read())
