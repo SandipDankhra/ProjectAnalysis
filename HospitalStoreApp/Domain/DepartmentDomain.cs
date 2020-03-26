@@ -22,11 +22,12 @@ namespace HospitalStoreApp.Domain
             }
         }
 
-        public void RemoveDepartment(Departments departments)
+        public void RemoveProduct(Departments departments)
         {
             Departments.Remove(departments);
             SaveChanges();
         }
+
        public List<Departments> GetAllDepartment()
         {
             return Departments.ToList();

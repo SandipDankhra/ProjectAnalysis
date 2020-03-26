@@ -78,6 +78,7 @@ namespace MoviesStoreApp
                     case 3:
                         Console.WriteLine("\n====== View All movie =====");
                         movieDomain.ViewAllMovies();
+                        
                         break;
                     case 4:
                         Console.WriteLine("\n====== Add Actor =====");

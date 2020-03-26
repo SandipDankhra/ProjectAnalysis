@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Radixweb\\C#\\ProjectAnalysis\\HospitalStoreApp\\HospitalStoreApp.csproj": {}
+    "F:\\Radixweb\\C#\\ProjectAnalysis\\ToyZoneApp\\ToyZoneApp.csproj": {}
   },
   "projects": {
-    "F:\\Radixweb\\C#\\ProjectAnalysis\\HospitalStoreApp\\HospitalStoreApp.csproj": {
+    "F:\\Radixweb\\C#\\ProjectAnalysis\\ToyZoneApp\\ToyZoneApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Radixweb\\C#\\ProjectAnalysis\\HospitalStoreApp\\HospitalStoreApp.csproj",
-        "projectName": "HospitalStoreApp",
-        "projectPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\HospitalStoreApp\\HospitalStoreApp.csproj",
+        "projectUniqueName": "F:\\Radixweb\\C#\\ProjectAnalysis\\ToyZoneApp\\ToyZoneApp.csproj",
+        "projectName": "ToyZoneApp",
+        "projectPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\ToyZoneApp\\ToyZoneApp.csproj",
         "packagesPath": "C:\\Users\\sendy\\.nuget\\packages\\",
-        "outputPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\HospitalStoreApp\\obj\\",
+        "outputPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\ToyZoneApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -45,6 +49,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "Microsoft.Web.Infrastructure": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
