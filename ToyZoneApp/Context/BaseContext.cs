@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ToyZoneApp.Context
 {
-    public abstract class BaseContext:DbContext
+    public class BaseContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

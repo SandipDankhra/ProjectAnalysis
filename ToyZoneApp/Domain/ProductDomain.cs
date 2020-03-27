@@ -8,15 +8,17 @@ using ToyZoneApp.Models;
 
 namespace ToyZoneApp.Domain
 {
-    public class ProductDomain : BaseContext
+    public class ProductDomain
     {
-
+        BaseContext db = new BaseContext();
         public void AddProduct(Products products)
         {
             try
             {
-                Products.Add(products);
-                SaveChangesAsync();
+
+                db.Products.Add(products);
+                db.SaveChangesAsync();
+                
             }
             catch (Exception e)
             {
@@ -26,7 +28,7 @@ namespace ToyZoneApp.Domain
         public List<Products> GetProduct()
         {
 
-            return Products.ToList();
+            return db.Products.ToList();
 
         }
 
@@ -35,8 +37,8 @@ namespace ToyZoneApp.Domain
             try
             {
 
-                Products.Remove(products);
-                SaveChanges();
+                db.Products.Remove(products);
+                db.SaveChanges();
             }
             catch (Exception e)
             {

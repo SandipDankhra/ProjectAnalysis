@@ -42,3 +42,16 @@ F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\win\l
 F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\obj\Debug\netcoreapp3.1\ToyZoneApp.dll
 F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\obj\Debug\netcoreapp3.1\ToyZoneApp.pdb
 F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\EntityFramework.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Radixweb\C#\ProjectAnalysis\ToyZoneApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
