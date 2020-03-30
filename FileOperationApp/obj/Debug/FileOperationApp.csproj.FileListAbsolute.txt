@@ -1,0 +1,6 @@
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\bin\Debug\FileOperationApp.exe.config
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\bin\Debug\FileOperationApp.exe
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\bin\Debug\FileOperationApp.pdb
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\obj\Debug\FileOperationApp.csprojAssemblyReference.cache
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\obj\Debug\FileOperationApp.exe
+F:\Radixweb\C#\ProjectAnalysis\FileOperationApp\obj\Debug\FileOperationApp.pdb
