@@ -1,5 +1,5 @@
 <div class="container" style="margin-top: 2rem;">
-<table class="table table-bordered">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -9,21 +9,23 @@
         <th scope="col">Course</th>
         <th scope="col">Fees</th>
         <th scope="col">Operation</th>
-        
+
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Sandip</td>
-        <td>9737381597</td>
-        <td>sandip@gmail.com</td>
-        <td>MCAL</td>
-        <td>Paid</td>
-       <td colspan="2"> <button type="submit" [routerLink]="['/update',1]"  class="btn btn-outline-secondary">Update</button> &nbsp;&nbsp;
-    <button type="submit" [routerLink]="['/delete']"  class="btn btn-outline-danger">Delete</button></td>
+      <tr *ngFor="let s of getData index as i">
+        <!-- <th scope="row">{{i+1}}</th> -->
+        <td>{{s.Name}}</td>
+        <td>{{s.MobileNumber}}</td>
+        <td>{{s.Email}}</td>
+        <td>{{s.Course}}</td>
+        <td>{{s.Fees}}</td>
+        <td colspan="2"> <button type="submit" [routerLink]="['/update',s.StudentId]"
+            class="btn btn-outline-secondary">Update</button> &nbsp;&nbsp;
+          <button type="submit" [routerLink]="['/delete',s.StudentId]" class="btn btn-outline-danger">Delete</button>
+        </td>
       </tr>
-  
+
     </tbody>
   </table>
 </div>

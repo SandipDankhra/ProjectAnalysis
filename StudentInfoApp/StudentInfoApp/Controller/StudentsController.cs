@@ -12,9 +12,9 @@ namespace StudentInfoApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class StudentController : ControllerBase
+    public class StudentsController : ControllerBase
     {
-        public StudentController()
+        public StudentsController()
         {
             this.studentDomain = new StudentDomain();
         }
