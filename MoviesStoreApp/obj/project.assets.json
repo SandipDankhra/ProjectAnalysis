@@ -1553,11 +1553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
+      "projectUniqueName": "F:\\Radixweb\\C-Sharp\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
       "projectName": "MoviesStoreApp",
-      "projectPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
+      "projectPath": "F:\\Radixweb\\C-Sharp\\ProjectAnalysis\\MoviesStoreApp\\MoviesStoreApp.csproj",
       "packagesPath": "C:\\Users\\sendy\\.nuget\\packages\\",
-      "outputPath": "F:\\Radixweb\\C#\\ProjectAnalysis\\MoviesStoreApp\\obj\\",
+      "outputPath": "F:\\Radixweb\\C-Sharp\\ProjectAnalysis\\MoviesStoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
